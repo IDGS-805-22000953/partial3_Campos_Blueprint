@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container mx-auto mt-5 p-6 bg-white shadow-lg rounded-lg">
+    <h2 class="text-center text-2xl font-bold text-gray-700">Agregar Preguntas al Examen</h2>
+
+    <div class="py-6">
+        <form class="max-w-lg mx-auto bg-gray-100 p-6 rounded-lg shadow-md" method="POST" action="{{ url_for('maestros.examen') }}">
+            
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold">Pregunta:</label>
+                {{ form.pregunta(class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300") }}
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold">Opciones:</label>
+                {{ form.opcion_a(class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300", placeholder="Opción A") }}
+                {{ form.opcion_b(class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300 mt-2", placeholder="Opción B") }}
+                {{ form.opcion_c(class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300 mt-2", placeholder="Opción C") }}
+                {{ form.opcion_d(class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300 mt-2", placeholder="Opción D") }}
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold">Respuesta Correcta:</label>
+                {{ form.respuesta_correcta(class="w-full p-2 border rounded-lg focus:ring focus:ring-green-300") }}
+            </div>
+
+            <button type="submit" class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700">
+                Agregar Pregunta
+            </button>
+        </form>
+    </div>
+
+    {% if preguntas %}
+    <div class="mt-6">
+        <h3 class="text-xl font-semibold text-gray-700 text-center">Preguntas Agregadas</h3>
+
+        <div class="overflow-x-auto mt-4">
+            <table class="w-full text-sm text-left text-gray-500 border border-gray-200 shadow-md rounded-lg">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+                    <tr>
+                        <th class="p-3 border">#</th>
+                        <th class="p-3 border">Pregunta</th>
+                        <th class="p-3 border">Opción A</th>
+                        <th class="p-3 border">Opción B</th>
+                        <th class="p-3 border">Opción C</th>
+                        <th class="p-3 border">Opción D</th>
+                        <th class="p-3 border">Respuesta Correcta</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white">
+                    {% for pregunta in preguntas %}
+                    <tr class="border-b hover:bg-gray-50">
+                        <td class="p-4 border font-medium text-gray-700">{{ loop.index }}</td>
+                        <td class="p-4 border">{{ pregunta.pregunta }}</td>
+                        <td class="p-4 border">{{ pregunta.opcion_a }}</td>
+                        <td class="p-4 border">{{ pregunta.opcion_b }}</td>
+                        <td class="p-4 border">{{ pregunta.opcion_c }}</td>
+                        <td class="p-4 border">{{ pregunta.opcion_d }}</td>
+                        <td class="p-4 border font-bold text-green-600">{{ pregunta.respuesta_correcta }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% else %}
+    <p class="mt-6 text-gray-600 text-center">No hay preguntas registradas aún.</p>
+    {% endif %}
+</div>
+{% endblock %}

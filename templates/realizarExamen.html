@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container mx-auto mt-5 p-6 bg-white shadow-lg rounded-lg">
+    <h2 class="text-center text-2xl font-bold text-gray-700">Realizar Examen</h2>
+    
+    <form method="POST" action="{{ url_for('alumnos.realizar_examen') }}" class="mt-4 bg-gray-100 p-4 rounded-lg shadow-md">
+    
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <label for="nombre" class="block text-gray-700 font-semibold">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300" required>
+            </div>
+            <div>
+                <label for="apaterno" class="block text-gray-700 font-semibold">Apellido Paterno:</label>
+                <input type="text" name="apaterno" id="apaterno" class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300" required>
+            </div>
+        </div>
+        <button type="submit" class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Buscar Alumno</button>
+    </form>
+
+    <div class="container">
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-success">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    {% if alumno %}
+    <div class="mt-6 p-4 bg-white shadow-md rounded-lg">
+        <h3 class="text-xl font-semibold text-gray-800">Datos del Alumno</h3>
+        <p class="text-gray-600"><strong>Nombre:</strong> {{ alumno.nombre }} {{ alumno.apaterno }} {{ alumno.amaterno }}</p>
+        <p class="text-gray-600"><strong>Grupo:</strong> {{ alumno.grupo }}</p>
+        <p class="text-gray-600"><strong>Edad:</strong> {{ edad }} años</p>
+
+        <form method="POST" action="{{ url_for('alumnos.guardar_examen') }}">
+            {{ form.csrf_token }}
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+            <input type="hidden" name="alumno_id" value="{{ alumno.id }}">
+
+            <div class="overflow-x-auto mt-6">
+                <table class="w-full text-sm text-left text-gray-500 border border-gray-200 shadow-md rounded-lg">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+                        <tr>
+                            <th class="p-3 border">Pregunta</th>
+                            <th class="p-3 border text-center">Opción A</th>
+                            <th class="p-3 border text-center">Opción B</th>
+                            <th class="p-3 border text-center">Opción C</th>
+                            <th class="p-3 border text-center">Opción D</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white">
+                        {% for pregunta in preguntas %}
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="p-4 border font-medium text-gray-700">{{ loop.index }}. {{ pregunta.pregunta }}</td>
+                            <td class="p-4 border text-center">
+                                <label class="flex items-center justify-center gap-2">
+                                    <input type="radio" name="pregunta_{{ pregunta.id }}" value="A" required class="form-radio text-blue-600">
+                                    {{ pregunta.opcion_a }}
+                                </label>
+                            </td>
+                            <td class="p-4 border text-center">
+                                <label class="flex items-center justify-center gap-2">
+                                    <input type="radio" name="pregunta_{{ pregunta.id }}" value="B" class="form-radio text-blue-600">
+                                    {{ pregunta.opcion_b }}
+                                </label>
+                            </td>
+                            <td class="p-4 border text-center">
+                                <label class="flex items-center justify-center gap-2">
+                                    <input type="radio" name="pregunta_{{ pregunta.id }}" value="C" class="form-radio text-blue-600">
+                                    {{ pregunta.opcion_c }}
+                                </label>
+                            </td>
+                            <td class="p-4 border text-center">
+                                <label class="flex items-center justify-center gap-2">
+                                    <input type="radio" name="pregunta_{{ pregunta.id }}" value="D" class="form-radio text-blue-600">
+                                    {{ pregunta.opcion_d }}
+                                </label>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <button type="submit" class="mt-4 w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700">Guardar Examen</button>
+        </form>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
