@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% block container %}
+{% import "_macros.html" as macros %}
+
+<div class="py-32 relative overflow-x-auto sm:rounded-lg">
+    <h2 class="text-center text-2xl font-bold text-gray-700">Editar Maestro</h2>
+
+    <div class="py-6">
+        <form class="max-w-lg mx-auto bg-gray-100 p-6 rounded-lg shadow-md" action="{{ url_for('maestros.editar_maestro', id=maestro.id) }}" method="post">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+
+            <div>
+                {{ macros.campoNuevo(form.nombre, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <div>
+                {{ macros.campoNuevo(form.apaterno, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <div>
+                {{ macros.campoNuevo(form.amaterno, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <div>
+                {{ macros.campoNuevo(form.email, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <div>
+                {{ macros.campoNuevo(form.telefono, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                Actualizar Maestro
+            </button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+{% endblock %}

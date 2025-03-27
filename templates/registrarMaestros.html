@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% block container %}
+{% import "_macros.html" as macros %}
+
+<div class="py-32 relative overflow-x-auto sm:rounded-lg">
+    <h2 class="text-center text-2xl font-bold text-gray-700">Registrar Maestro</h2>
+    
+    <div class="py-6">
+        <form class="max-w-lg mx-auto bg-gray-100 p-6 rounded-lg shadow-md" action="{{ url_for('maestros.registrar_maestros') }}" method="post">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+
+            <div>
+                {{ macros.campoNuevo(form.nombre, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <div>
+                {{ macros.campoNuevo(form.apaterno, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <div>
+                {{ macros.campoNuevo(form.amaterno, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <div>
+                {{ macros.campoNuevo(form.email, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <div>
+                {{ macros.campoNuevo(form.telefono, class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500") }}
+            </div>
+
+            <button type="submit" class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700">
+                Registrar Maestro
+            </button>
+        </form>
+    </div>
+
+    <h2 class="text-center text-xl font-semibold text-gray-700 mt-12">Maestros Registrados</h2>
+
+    <div class="overflow-x-auto mt-4">
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 border rounded-lg">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">Nombre</th>
+                    <th scope="col" class="px-6 py-3">Apellido Paterno</th>
+                    <th scope="col" class="px-6 py-3">Apellido Materno</th>
+                    <th scope="col" class="px-6 py-3">Email</th>
+                    <th scope="col" class="px-6 py-3">Teléfono</th>
+                    <th scope="col" class="px-6 py-3">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for maestro in maestros %}
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="px-6 py-4">{{ maestro.nombre }}</td>
+                    <td class="px-6 py-4">{{ maestro.apaterno }}</td>
+                    <td class="px-6 py-4">{{ maestro.amaterno }}</td>
+                    <td class="px-6 py-4">{{ maestro.email }}</td>
+                    <td class="px-6 py-4">{{ maestro.telefono }}</td>
+                    <td class="px-6 py-4 flex gap-2">
+                        <a href="{{ url_for('maestros.editar_maestro', id=maestro.id) }}">
+                            <button type="button" class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded-md text-xs">
+                                Editar
+                            </button>
+                        </a>
+                        <form action="{{ url_for('maestros.eliminar_maestro', id=maestro.id) }}" method="POST">
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                            <button type="submit" class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded-md text-xs">
+                                Eliminar
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="6" class="px-6 py-4 text-center text-gray-500">No hay maestros registrados.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+{% endblock %}

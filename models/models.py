@@ -9,13 +9,14 @@ class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
-    password = db.Column(db.String(200), nullable=False)
+    password = db.Column(db.String(300), nullable=False)
 
     def set_password(self, password):
         self.password = generate_password_hash(password)
 
     def check_password(self, password):
         return check_password_hash(self.password, password)
+    
 class Alumnos(db.Model):
     __tablename__ = 'alumnos'
     id = db.Column(db.Integer, primary_key=True)
@@ -25,6 +26,16 @@ class Alumnos(db.Model):
     fecha_nacimiento = db.Column(db.Date, nullable=False)
     grupo = db.Column(db.String(50), nullable=False)
     created_date = db.Column(db.DateTime, default=datetime.datetime.now)
+    
+class Maestros(db.Model):
+    __tablename__ = 'maestros'
+    id = db.Column(db.Integer, primary_key=True)
+    nombre = db.Column(db.String(50), nullable=False)
+    apaterno = db.Column(db.String(50), nullable=False)
+    amaterno = db.Column(db.String(50), nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=False)
+    telefono = db.Column(db.String(20), nullable=True)
+    fecha_registro = db.Column(db.DateTime, default=datetime.datetime.now)
 
 class Preguntas(db.Model):
     __tablename__ = 'preguntas'

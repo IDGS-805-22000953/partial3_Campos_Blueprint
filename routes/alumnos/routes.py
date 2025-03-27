@@ -9,12 +9,14 @@ alumnos_bp = Blueprint('alumnos', __name__)
 
 
 @alumnos_bp.route("/index")
+@login_required
 def index():
     logging.info("Acceso a la página de inicio")
     create_form = forms.AlumnoFormEditar(request.form)
     return render_template("index.html", form=create_form)
 
 @alumnos_bp.route('/alumnos1', methods=['GET', 'POST'])
+@login_required
 def Alumnos1():
     create_form = forms.AlumnoFormEditar(request.form)
     if request.method == 'POST':
@@ -31,6 +33,7 @@ def Alumnos1():
     return render_template('index.html', form=create_form)
 
 @alumnos_bp.route('/realizar_examen', methods=['GET', 'POST'])
+@login_required
 def realizar_examen():
     create_form = forms.BuscarAlumnoForm(request.form)
     alumno = None
@@ -50,6 +53,7 @@ def realizar_examen():
     return render_template('realizarExamen.html', form=create_form, alumno=alumno, preguntas=preguntas)
 
 @alumnos_bp.route('/guardar_examen', methods=['POST'])
+@login_required
 def guardar_examen():
     alumno_id = request.form.get('alumno_id')
     alumno = Alumnos.query.get(alumno_id)
@@ -85,6 +89,7 @@ def guardar_examen():
     return redirect(url_for('alumnos.ver_calificaciones', grupo=alumno.grupo))
 
 @alumnos_bp.route('/ver_calificaciones', methods=['GET', 'POST'])
+@login_required
 def ver_calificaciones():
     create_form = forms.SeleccionarGrupoForm(request.form)  
     grupos = db.session.query(Alumnos.grupo).distinct().all()

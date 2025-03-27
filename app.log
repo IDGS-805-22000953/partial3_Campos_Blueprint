@@ -606,3 +606,431 @@
 2025-03-25 15:59:44,372 - INFO - 127.0.0.1 - - [25/Mar/2025 15:59:44] "GET /maestros/examen?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 2025-03-25 16:00:55,629 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\alumnos\\routes.py', reloading
 2025-03-25 16:00:55,814 - INFO -  * Restarting with stat
+2025-03-25 16:00:57,478 - INFO - Inicio de la aplicación Flask
+2025-03-25 16:00:57,502 - WARNING -  * Debugger is active!
+2025-03-25 16:00:57,520 - INFO -  * Debugger PIN: 492-992-560
+2025-03-25 16:01:01,073 - INFO - Pregunta agregada: HOLAaaaaaa
+2025-03-25 16:01:01,073 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:01] "[32mPOST /maestros/examen HTTP/1.1[0m" 302 -
+2025-03-25 16:01:01,129 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:01] "GET /maestros/examen HTTP/1.1" 200 -
+2025-03-25 16:01:01,656 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:01] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 16:01:01,776 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 16:01:07,317 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:07] "GET /alumnos/realizar_examen HTTP/1.1" 200 -
+2025-03-25 16:01:07,402 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:07] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 16:01:07,672 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 16:01:13,567 - INFO - Alumno encontrado: Campos Campos, Edad: 20
+2025-03-25 16:01:13,636 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:13] "[35m[1mPOST /alumnos/realizar_examen HTTP/1.1[0m" 500 -
+2025-03-25 16:01:13,774 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:13] "GET /alumnos/realizar_examen?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-25 16:01:13,774 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:13] "GET /alumnos/realizar_examen?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-25 16:01:13,844 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:13] "GET /alumnos/realizar_examen?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-25 16:01:13,860 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:13] "GET /alumnos/realizar_examen?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-25 16:01:58,780 - INFO - Alumno encontrado: Campos Campos, Edad: 20
+2025-03-25 16:01:58,811 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:58] "POST /alumnos/realizar_examen HTTP/1.1" 200 -
+2025-03-25 16:01:58,895 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:58] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 16:01:59,259 - INFO - 127.0.0.1 - - [25/Mar/2025 16:01:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 16:02:05,245 - INFO - Examen guardado: Alumno Campos Campos, Calificación: 10.00
+2025-03-25 16:02:05,245 - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:05] "[32mPOST /alumnos/guardar_examen HTTP/1.1[0m" 302 -
+2025-03-25 16:02:05,276 - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:05] "GET /alumnos/ver_calificaciones?grupo=IDGS805 HTTP/1.1" 200 -
+2025-03-25 16:02:05,361 - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:05] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 16:02:05,727 - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 16:02:06,904 - INFO - Consulta de calificaciones para el grupo: IDGS805
+2025-03-25 16:02:06,904 - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:06] "POST /alumnos/ver_calificaciones HTTP/1.1" 200 -
+2025-03-25 16:02:07,020 - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:07] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 16:02:07,153 - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:15:28,108 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\maestros\\routes.py', reloading
+2025-03-25 17:15:28,307 - INFO -  * Restarting with stat
+2025-03-25 17:15:30,201 - INFO - Inicio de la aplicación Flask
+2025-03-25 17:15:30,250 - WARNING -  * Debugger is active!
+2025-03-25 17:15:30,277 - INFO -  * Debugger PIN: 492-992-560
+2025-03-25 17:17:31,127 - INFO - The CSRF token has expired.
+2025-03-25 17:17:31,127 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:31] "[31m[1mPOST /alumnos/ver_calificaciones HTTP/1.1[0m" 400 -
+2025-03-25 17:17:31,277 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:17:33,226 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:17:36,262 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:36] "GET /alumnos/alumnos1 HTTP/1.1" 200 -
+2025-03-25 17:17:36,559 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:36] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 17:17:36,830 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:17:38,253 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:38] "GET /alumnos/alumnos1 HTTP/1.1" 200 -
+2025-03-25 17:17:38,322 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:38] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 17:17:38,554 - INFO - 127.0.0.1 - - [25/Mar/2025 17:17:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:24:03,577 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:24:04,247 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:24:04,934 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:04] "GET /alumnos/realizar_examen HTTP/1.1" 200 -
+2025-03-25 17:24:05,034 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:05] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 17:24:05,466 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:05] "GET /maestros/examen HTTP/1.1" 200 -
+2025-03-25 17:24:05,535 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:05] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 17:24:05,751 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:24:06,121 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:06] "GET /maestros/examen HTTP/1.1" 200 -
+2025-03-25 17:24:06,221 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:06] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-25 17:24:06,337 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:24:12,170 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-25 17:24:12,208 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:12] "GET /auth/login HTTP/1.1" 200 -
+2025-03-25 17:24:12,825 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:24:37,011 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:37] "GET /auth/login HTTP/1.1" 200 -
+2025-03-25 17:24:37,570 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:24:40,278 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:40] "GET /auth/register HTTP/1.1" 200 -
+2025-03-25 17:24:40,794 - INFO - 127.0.0.1 - - [25/Mar/2025 17:24:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:25:25,522 - INFO - 127.0.0.1 - - [25/Mar/2025 17:25:25] "GET /auth/register HTTP/1.1" 200 -
+2025-03-25 17:25:26,108 - INFO - 127.0.0.1 - - [25/Mar/2025 17:25:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:25:50,902 - INFO - 127.0.0.1 - - [25/Mar/2025 17:25:50] "GET /auth/register HTTP/1.1" 200 -
+2025-03-25 17:25:51,434 - INFO - 127.0.0.1 - - [25/Mar/2025 17:25:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:26:09,604 - INFO - 127.0.0.1 - - [25/Mar/2025 17:26:09] "GET /auth/register HTTP/1.1" 200 -
+2025-03-25 17:26:10,183 - INFO - 127.0.0.1 - - [25/Mar/2025 17:26:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:26:36,414 - INFO - 127.0.0.1 - - [25/Mar/2025 17:26:36] "GET /auth/register HTTP/1.1" 200 -
+2025-03-25 17:26:37,031 - INFO - 127.0.0.1 - - [25/Mar/2025 17:26:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-25 17:26:39,453 - INFO - 127.0.0.1 - - [25/Mar/2025 17:26:39] "GET /auth/login HTTP/1.1" 200 -
+2025-03-25 17:26:39,986 - INFO - 127.0.0.1 - - [25/Mar/2025 17:26:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 23:02:19,938 - INFO - 127.0.0.1 - - [26/Mar/2025 23:02:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 23:02:20,124 - INFO - 127.0.0.1 - - [26/Mar/2025 23:02:20] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:02:21,414 - INFO - 127.0.0.1 - - [26/Mar/2025 23:02:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 23:04:28,114 - INFO - 127.0.0.1 - - [26/Mar/2025 23:04:28] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 23:04:28,130 - INFO - 127.0.0.1 - - [26/Mar/2025 23:04:28] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:05:00,739 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:00] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:05:02,762 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:02] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:05:05,508 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:05] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:05:06,104 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 23:05:06,991 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:06] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:05:07,655 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 23:05:42,796 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 23:05:42,808 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:42] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:05:44,577 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:44] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:05:46,252 - INFO - 127.0.0.1 - - [26/Mar/2025 23:05:46] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:06:11,987 - INFO - 127.0.0.1 - - [26/Mar/2025 23:06:11] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:06:12,632 - INFO - 127.0.0.1 - - [26/Mar/2025 23:06:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 23:06:16,967 - INFO - 127.0.0.1 - - [26/Mar/2025 23:06:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 23:06:16,982 - INFO - 127.0.0.1 - - [26/Mar/2025 23:06:16] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:06:23,918 - INFO - 127.0.0.1 - - [26/Mar/2025 23:06:23] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 23:06:23,938 - INFO - 127.0.0.1 - - [26/Mar/2025 23:06:23] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:07:06,106 - INFO - 127.0.0.1 - - [26/Mar/2025 23:07:06] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:07:07,023 - INFO - 127.0.0.1 - - [26/Mar/2025 23:07:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 23:07:08,524 - INFO - 127.0.0.1 - - [26/Mar/2025 23:07:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 23:07:54,045 - INFO - 127.0.0.1 - - [26/Mar/2025 23:07:54] "GET /auth/login HTTP/1.1" 200 -
+2025-03-26 23:07:54,781 - INFO - 127.0.0.1 - - [26/Mar/2025 23:07:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 13:53:04,506 - INFO - Inicio de la aplicación Flask
+2025-03-27 13:53:04,626 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 13:53:04,626 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 13:53:04,633 - INFO -  * Restarting with stat
+2025-03-27 13:53:07,966 - INFO - Inicio de la aplicación Flask
+2025-03-27 13:53:08,253 - WARNING -  * Debugger is active!
+2025-03-27 13:53:08,279 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 13:53:08,625 - INFO - 127.0.0.1 - - [27/Mar/2025 13:53:08] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-27 13:53:08,770 - INFO - 127.0.0.1 - - [27/Mar/2025 13:53:08] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 13:53:19,840 - INFO - 127.0.0.1 - - [27/Mar/2025 13:53:19] "POST /auth/login HTTP/1.1" 200 -
+2025-03-27 13:53:49,037 - INFO - 127.0.0.1 - - [27/Mar/2025 13:53:49] "GET /auth/register HTTP/1.1" 200 -
+2025-03-27 13:54:03,963 - INFO - 127.0.0.1 - - [27/Mar/2025 13:54:03] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 13:54:06,533 - INFO - 127.0.0.1 - - [27/Mar/2025 13:54:06] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 13:54:13,177 - INFO - 127.0.0.1 - - [27/Mar/2025 13:54:13] "POST /auth/login HTTP/1.1" 200 -
+2025-03-27 13:54:22,965 - INFO - 127.0.0.1 - - [27/Mar/2025 13:54:22] "POST /auth/login HTTP/1.1" 200 -
+2025-03-27 13:54:23,724 - INFO - 127.0.0.1 - - [27/Mar/2025 13:54:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 13:55:34,978 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\auth\\routes.py', reloading
+2025-03-27 13:55:35,212 - INFO -  * Restarting with stat
+2025-03-27 13:55:38,742 - INFO - Inicio de la aplicación Flask
+2025-03-27 13:55:38,821 - WARNING -  * Debugger is active!
+2025-03-27 13:55:38,855 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 13:55:45,256 - INFO - 127.0.0.1 - - [27/Mar/2025 13:55:45] "POST /auth/login HTTP/1.1" 200 -
+2025-03-27 13:55:46,110 - INFO - 127.0.0.1 - - [27/Mar/2025 13:55:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 13:55:47,157 - INFO - 127.0.0.1 - - [27/Mar/2025 13:55:47] "GET /auth/register HTTP/1.1" 200 -
+2025-03-27 13:55:48,035 - INFO - 127.0.0.1 - - [27/Mar/2025 13:55:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 13:56:07,797 - INFO - 127.0.0.1 - - [27/Mar/2025 13:56:07] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 13:56:08,463 - INFO - 127.0.0.1 - - [27/Mar/2025 13:56:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:02:35,783 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\auth\\routes.py', reloading
+2025-03-27 14:02:35,958 - INFO -  * Restarting with stat
+2025-03-27 14:02:39,889 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:02:39,944 - WARNING -  * Debugger is active!
+2025-03-27 14:02:39,962 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:02:42,293 - INFO - 127.0.0.1 - - [27/Mar/2025 14:02:42] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 14:02:43,469 - INFO - 127.0.0.1 - - [27/Mar/2025 14:02:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:02:57,105 - INFO - 127.0.0.1 - - [27/Mar/2025 14:02:57] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 14:02:58,084 - INFO - 127.0.0.1 - - [27/Mar/2025 14:02:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:03:54,803 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\auth\\routes.py', reloading
+2025-03-27 14:03:55,320 - INFO -  * Restarting with stat
+2025-03-27 14:03:58,660 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:03:58,725 - WARNING -  * Debugger is active!
+2025-03-27 14:03:58,773 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:04:03,453 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\auth\\routes.py', reloading
+2025-03-27 14:04:03,660 - INFO -  * Restarting with stat
+2025-03-27 14:04:05,629 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:04:05,683 - WARNING -  * Debugger is active!
+2025-03-27 14:04:05,703 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:04:09,973 - INFO - 127.0.0.1 - - [27/Mar/2025 14:04:09] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 14:04:10,852 - INFO - 127.0.0.1 - - [27/Mar/2025 14:04:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:04:26,337 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\auth\\routes.py', reloading
+2025-03-27 14:04:26,948 - INFO -  * Restarting with stat
+2025-03-27 14:04:29,563 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:04:29,635 - WARNING -  * Debugger is active!
+2025-03-27 14:04:29,669 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:04:33,228 - INFO - 127.0.0.1 - - [27/Mar/2025 14:04:33] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 14:04:34,136 - INFO - 127.0.0.1 - - [27/Mar/2025 14:04:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:04:43,299 - INFO - 127.0.0.1 - - [27/Mar/2025 14:04:43] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 14:04:45,441 - INFO - 127.0.0.1 - - [27/Mar/2025 14:04:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:06:27,408 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\models\\models.py', reloading
+2025-03-27 14:06:27,560 - INFO -  * Restarting with stat
+2025-03-27 14:06:31,478 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:06:31,520 - WARNING -  * Debugger is active!
+2025-03-27 14:06:31,544 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:07:35,491 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\models\\models.py', reloading
+2025-03-27 14:07:36,056 - INFO -  * Restarting with stat
+2025-03-27 14:07:40,010 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:07:40,212 - WARNING -  * Debugger is active!
+2025-03-27 14:07:40,238 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:11:01,421 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\config.py', reloading
+2025-03-27 14:11:01,757 - INFO -  * Restarting with stat
+2025-03-27 14:11:19,191 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:11:19,328 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 14:11:19,330 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 14:11:19,342 - INFO -  * Restarting with stat
+2025-03-27 14:11:21,822 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:11:21,870 - WARNING -  * Debugger is active!
+2025-03-27 14:11:21,915 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:11:26,580 - INFO - 127.0.0.1 - - [27/Mar/2025 14:11:26] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 14:11:28,112 - INFO - 127.0.0.1 - - [27/Mar/2025 14:11:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:11:44,454 - INFO - 127.0.0.1 - - [27/Mar/2025 14:11:44] "POST /auth/register HTTP/1.1" 200 -
+2025-03-27 14:11:45,555 - INFO - 127.0.0.1 - - [27/Mar/2025 14:11:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:12:22,217 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\app.py', reloading
+2025-03-27 14:12:22,406 - INFO -  * Restarting with stat
+2025-03-27 14:12:28,326 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:12:28,387 - WARNING -  * Debugger is active!
+2025-03-27 14:12:28,424 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:12:37,848 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\app.py', reloading
+2025-03-27 14:12:38,063 - INFO -  * Restarting with stat
+2025-03-27 14:12:43,020 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:12:43,060 - WARNING -  * Debugger is active!
+2025-03-27 14:12:43,087 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:13:21,900 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\app.py', reloading
+2025-03-27 14:13:22,049 - INFO -  * Restarting with stat
+2025-03-27 14:13:31,570 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:13:31,647 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 14:13:31,648 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 14:13:31,650 - INFO -  * Restarting with stat
+2025-03-27 14:13:35,021 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:13:35,070 - WARNING -  * Debugger is active!
+2025-03-27 14:13:35,111 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:13:36,862 - INFO - The CSRF session token is missing.
+2025-03-27 14:13:36,863 - INFO - 127.0.0.1 - - [27/Mar/2025 14:13:36] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-03-27 14:13:37,051 - INFO - 127.0.0.1 - - [27/Mar/2025 14:13:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:13:39,665 - INFO - The CSRF session token is missing.
+2025-03-27 14:13:39,672 - INFO - 127.0.0.1 - - [27/Mar/2025 14:13:39] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-03-27 14:13:39,823 - INFO - 127.0.0.1 - - [27/Mar/2025 14:13:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:14:15,054 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:15] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-27 14:14:15,102 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:15] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 14:14:15,897 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:14:17,479 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:17] "GET /auth/register HTTP/1.1" 200 -
+2025-03-27 14:14:18,493 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:14:32,047 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:32] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2025-03-27 14:14:32,166 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:32] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 14:14:33,432 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:14:41,496 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:41] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-03-27 14:14:41,957 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:41] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 14:14:42,000 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:42] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 14:14:42,055 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:42] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:14:42,078 - INFO - 127.0.0.1 - - [27/Mar/2025 14:14:42] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:15:08,035 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\auth\\routes.py', reloading
+2025-03-27 14:15:08,212 - INFO -  * Restarting with stat
+2025-03-27 14:15:10,805 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:15:10,859 - WARNING -  * Debugger is active!
+2025-03-27 14:15:10,893 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:15:15,742 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\auth\\routes.py', reloading
+2025-03-27 14:15:16,046 - INFO -  * Restarting with stat
+2025-03-27 14:15:18,678 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:15:18,769 - WARNING -  * Debugger is active!
+2025-03-27 14:15:18,819 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:15:19,860 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:19] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-03-27 14:15:19,922 - INFO - Acceso a la página de inicio
+2025-03-27 14:15:20,243 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:20] "[35m[1mGET /alumnos/index HTTP/1.1[0m" 500 -
+2025-03-27 14:15:20,654 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:20] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 14:15:20,675 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:20] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 14:15:20,732 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:20] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:15:20,756 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:20] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:15:22,072 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:22] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 14:15:23,864 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:15:34,058 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:34] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-03-27 14:15:34,076 - INFO - Acceso a la página de inicio
+2025-03-27 14:15:34,137 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:34] "[35m[1mGET /alumnos/index HTTP/1.1[0m" 500 -
+2025-03-27 14:15:34,363 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:34] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 14:15:34,369 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:34] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 14:15:34,420 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:34] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:15:34,437 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:34] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:15:56,180 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:56] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-27 14:15:56,195 - INFO - 127.0.0.1 - - [27/Mar/2025 14:15:56] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 14:16:29,986 - INFO - Acceso a la página de inicio
+2025-03-27 14:16:30,226 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:30] "[35m[1mGET /alumnos/index HTTP/1.1[0m" 500 -
+2025-03-27 14:16:30,408 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:30] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 14:16:30,421 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:30] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 14:16:30,521 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:30] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:16:30,543 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:30] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:16:31,757 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:16:32,962 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:32] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-03-27 14:16:32,973 - INFO - Acceso a la página de inicio
+2025-03-27 14:16:33,043 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:33] "[35m[1mGET /alumnos/index HTTP/1.1[0m" 500 -
+2025-03-27 14:16:33,207 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:33] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 14:16:33,211 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:33] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 14:16:33,268 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:33] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:16:33,317 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:33] "GET /alumnos/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:16:55,946 - INFO - Acceso a la página de inicio
+2025-03-27 14:16:55,976 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:55] "GET /alumnos/index HTTP/1.1" 200 -
+2025-03-27 14:16:56,122 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:56] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:16:56,577 - INFO - 127.0.0.1 - - [27/Mar/2025 14:16:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:19:17,493 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:19:17,549 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 14:19:17,549 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 14:19:17,555 - INFO -  * Restarting with stat
+2025-03-27 14:19:19,400 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:19:19,431 - WARNING -  * Debugger is active!
+2025-03-27 14:19:19,445 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:19:20,564 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:20] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-27 14:19:20,649 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:20] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 14:19:21,444 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:19:27,554 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:27] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-03-27 14:19:27,571 - INFO - Acceso a la página de inicio
+2025-03-27 14:19:27,609 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:27] "GET /alumnos/index HTTP/1.1" 200 -
+2025-03-27 14:19:27,899 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:27] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:19:27,943 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:19:33,641 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:33] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-03-27 14:19:33,656 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:33] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 14:19:34,191 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:19:41,407 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:41] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-03-27 14:19:41,421 - INFO - Acceso a la página de inicio
+2025-03-27 14:19:41,425 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:41] "GET /alumnos/index HTTP/1.1" 200 -
+2025-03-27 14:19:41,533 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:41] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:19:41,681 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:19:45,657 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:45] "GET /maestros/examen HTTP/1.1" 200 -
+2025-03-27 14:19:45,770 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:45] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:19:45,916 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:19:47,015 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:47] "GET /alumnos/realizar_examen HTTP/1.1" 200 -
+2025-03-27 14:19:47,119 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:47] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:19:47,272 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:19:57,883 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:57] "GET /alumnos/ver_calificaciones HTTP/1.1" 200 -
+2025-03-27 14:19:58,027 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:58] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:19:58,159 - INFO - 127.0.0.1 - - [27/Mar/2025 14:19:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:20:07,733 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:07] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-03-27 14:20:07,747 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:07] "GET /auth/login HTTP/1.1" 200 -
+2025-03-27 14:20:08,309 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:20:16,426 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:16] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-03-27 14:20:16,438 - INFO - Acceso a la página de inicio
+2025-03-27 14:20:16,443 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:16] "GET /alumnos/index HTTP/1.1" 200 -
+2025-03-27 14:20:16,550 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:16] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:20:16,859 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:20:20,393 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:20] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:20:20,550 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:20] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:20:20,645 - INFO - 127.0.0.1 - - [27/Mar/2025 14:20:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:21:11,869 - INFO - 127.0.0.1 - - [27/Mar/2025 14:21:11] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:21:11,959 - INFO - 127.0.0.1 - - [27/Mar/2025 14:21:11] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:21:12,200 - INFO - 127.0.0.1 - - [27/Mar/2025 14:21:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:21:35,474 - INFO - 127.0.0.1 - - [27/Mar/2025 14:21:35] "[32mPOST /maestros/registrar_maestros HTTP/1.1[0m" 302 -
+2025-03-27 14:21:35,495 - INFO - 127.0.0.1 - - [27/Mar/2025 14:21:35] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:21:35,653 - INFO - 127.0.0.1 - - [27/Mar/2025 14:21:35] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:21:35,771 - INFO - 127.0.0.1 - - [27/Mar/2025 14:21:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:22:47,598 - INFO - 127.0.0.1 - - [27/Mar/2025 14:22:47] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:22:47,704 - INFO - 127.0.0.1 - - [27/Mar/2025 14:22:47] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:22:47,948 - INFO - 127.0.0.1 - - [27/Mar/2025 14:22:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:25:18,490 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\routes\\maestros\\routes.py', reloading
+2025-03-27 14:25:18,636 - INFO -  * Restarting with stat
+2025-03-27 14:25:23,071 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:25:23,155 - WARNING -  * Debugger is active!
+2025-03-27 14:25:23,208 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:25:23,539 - INFO - 127.0.0.1 - - [27/Mar/2025 14:25:23] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:25:23,834 - INFO - 127.0.0.1 - - [27/Mar/2025 14:25:23] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:25:24,043 - INFO - 127.0.0.1 - - [27/Mar/2025 14:25:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:26:04,735 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\routes\\maestros\\routes.py', reloading
+2025-03-27 14:26:04,873 - INFO -  * Restarting with stat
+2025-03-27 14:26:07,934 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:26:07,978 - WARNING -  * Debugger is active!
+2025-03-27 14:26:07,996 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:28:01,426 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\routes\\maestros\\routes.py', reloading
+2025-03-27 14:28:01,676 - INFO -  * Restarting with stat
+2025-03-27 14:28:04,392 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:28:04,428 - WARNING -  * Debugger is active!
+2025-03-27 14:28:04,446 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:28:04,656 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:04] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:28:04,946 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:04] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:28:04,984 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:28:07,437 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:07] "[35m[1mGET /maestros/editar_maestro/1 HTTP/1.1[0m" 500 -
+2025-03-27 14:28:07,556 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:07] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 14:28:07,564 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:07] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 14:28:07,634 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:07] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:28:07,653 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:07] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:28:10,041 - INFO - 127.0.0.1 - - [27/Mar/2025 14:28:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:30:52,747 - INFO - 127.0.0.1 - - [27/Mar/2025 14:30:52] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:30:52,843 - INFO - 127.0.0.1 - - [27/Mar/2025 14:30:52] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:30:53,084 - INFO - 127.0.0.1 - - [27/Mar/2025 14:30:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:30:54,837 - INFO - 127.0.0.1 - - [27/Mar/2025 14:30:54] "GET /maestros/editar_maestro/1 HTTP/1.1" 200 -
+2025-03-27 14:30:54,942 - INFO - 127.0.0.1 - - [27/Mar/2025 14:30:54] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:30:55,127 - INFO - 127.0.0.1 - - [27/Mar/2025 14:30:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:31:00,471 - INFO - 127.0.0.1 - - [27/Mar/2025 14:31:00] "[35m[1mPOST /maestros/editar_maestro/1 HTTP/1.1[0m" 500 -
+2025-03-27 14:31:00,626 - INFO - 127.0.0.1 - - [27/Mar/2025 14:31:00] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 14:31:00,679 - INFO - 127.0.0.1 - - [27/Mar/2025 14:31:00] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 14:31:00,735 - INFO - 127.0.0.1 - - [27/Mar/2025 14:31:00] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:31:00,777 - INFO - 127.0.0.1 - - [27/Mar/2025 14:31:00] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:32:13,635 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\forms.py', reloading
+2025-03-27 14:32:14,264 - INFO -  * Restarting with stat
+2025-03-27 14:32:16,350 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:32:16,399 - WARNING -  * Debugger is active!
+2025-03-27 14:32:16,417 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:32:16,691 - INFO - 127.0.0.1 - - [27/Mar/2025 14:32:16] "GET /maestros/editar_maestro/1 HTTP/1.1" 200 -
+2025-03-27 14:32:16,995 - INFO - 127.0.0.1 - - [27/Mar/2025 14:32:16] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:32:17,119 - INFO - 127.0.0.1 - - [27/Mar/2025 14:32:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:32:20,345 - INFO - 127.0.0.1 - - [27/Mar/2025 14:32:20] "[35m[1mPOST /maestros/editar_maestro/1 HTTP/1.1[0m" 500 -
+2025-03-27 14:32:20,464 - INFO - 127.0.0.1 - - [27/Mar/2025 14:32:20] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-27 14:32:20,476 - INFO - 127.0.0.1 - - [27/Mar/2025 14:32:20] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-27 14:32:20,532 - INFO - 127.0.0.1 - - [27/Mar/2025 14:32:20] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:32:20,546 - INFO - 127.0.0.1 - - [27/Mar/2025 14:32:20] "GET /maestros/editar_maestro/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-27 14:33:42,360 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\routes\\maestros\\routes.py', reloading
+2025-03-27 14:33:42,506 - INFO -  * Restarting with stat
+2025-03-27 14:33:44,693 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:33:44,730 - WARNING -  * Debugger is active!
+2025-03-27 14:33:44,746 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:34:09,421 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\forms.py', reloading
+2025-03-27 14:34:09,589 - INFO -  * Restarting with stat
+2025-03-27 14:34:11,909 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:34:11,948 - WARNING -  * Debugger is active!
+2025-03-27 14:34:11,963 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:34:58,816 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\forms.py', reloading
+2025-03-27 14:34:58,969 - INFO -  * Restarting with stat
+2025-03-27 14:35:01,089 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:35:01,134 - WARNING -  * Debugger is active!
+2025-03-27 14:35:01,157 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:35:10,817 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\routes\\maestros\\routes.py', reloading
+2025-03-27 14:35:10,949 - INFO -  * Restarting with stat
+2025-03-27 14:35:12,732 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:35:12,787 - WARNING -  * Debugger is active!
+2025-03-27 14:35:12,811 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:36:36,425 - INFO -  * Detected change in 'C:\\Users\\Crepa\\Desktop\\Carpetas\\UTL\\IDGS805\\ExamenSegundoParcial\\routes\\maestros\\routes.py', reloading
+2025-03-27 14:36:36,596 - INFO -  * Restarting with stat
+2025-03-27 14:36:39,744 - INFO - Inicio de la aplicación Flask
+2025-03-27 14:36:39,798 - WARNING -  * Debugger is active!
+2025-03-27 14:36:39,825 - INFO -  * Debugger PIN: 492-992-560
+2025-03-27 14:36:50,786 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:50] "GET /maestros/editar_maestro/1 HTTP/1.1" 200 -
+2025-03-27 14:36:51,222 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:51] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:36:51,303 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:36:53,317 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:53] "[32mPOST /maestros/editar_maestro/1 HTTP/1.1[0m" 302 -
+2025-03-27 14:36:53,371 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:53] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:36:53,463 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:53] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:36:53,659 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:36:57,673 - INFO - The CSRF token is missing.
+2025-03-27 14:36:57,674 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:57] "[31m[1mPOST /maestros/eliminar_maestro/1 HTTP/1.1[0m" 400 -
+2025-03-27 14:36:57,781 - INFO - 127.0.0.1 - - [27/Mar/2025 14:36:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:37:46,453 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:37:48,520 - INFO - The CSRF token is missing.
+2025-03-27 14:37:48,521 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:48] "[31m[1mPOST /maestros/eliminar_maestro/1 HTTP/1.1[0m" 400 -
+2025-03-27 14:37:48,666 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:37:49,866 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:37:52,886 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:52] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:37:52,951 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:52] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:37:53,305 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:37:55,768 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:55] "[32mPOST /maestros/eliminar_maestro/1 HTTP/1.1[0m" 302 -
+2025-03-27 14:37:55,790 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:55] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:37:55,885 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:55] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:37:56,085 - INFO - 127.0.0.1 - - [27/Mar/2025 14:37:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:38:45,329 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:45] "[32mPOST /maestros/registrar_maestros HTTP/1.1[0m" 302 -
+2025-03-27 14:38:45,388 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:45] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:38:45,496 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:45] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:38:45,716 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:38:47,362 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:47] "[32mPOST /maestros/eliminar_maestro/2 HTTP/1.1[0m" 302 -
+2025-03-27 14:38:47,381 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:47] "GET /maestros/registrar_maestros HTTP/1.1" 200 -
+2025-03-27 14:38:47,474 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:47] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:38:47,640 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 14:38:52,415 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:52] "GET /alumnos/alumnos1 HTTP/1.1" 200 -
+2025-03-27 14:38:52,520 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:52] "GET /static/css/output.css HTTP/1.1" 200 -
+2025-03-27 14:38:52,767 - INFO - 127.0.0.1 - - [27/Mar/2025 14:38:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

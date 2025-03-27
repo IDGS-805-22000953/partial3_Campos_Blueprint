@@ -9,7 +9,7 @@
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
         <input type="text" name="username" placeholder="Usuario" class="w-full px-4 py-2 mt-4 border rounded">
         <input type="password" name="password" placeholder="Contraseña" class="w-full px-4 py-2 mt-2 border rounded">
-        <input type="email" name="email" placeholder="Correo electrónico" class="w-full px-4 py-2 mt-2 border rounded"> <button class="w-full bg-green-500 text-white py-2 mt-4 rounded">Registrarse</button>
+        <input type="email" name="email" placeholder="Correo electrónico" class="w-full px-4 py-2 mt-2 border rounded"> <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 mt-4 rounded">Registrarse</button>
     </form>
     <p class="mt-4 text-center text-sm">¿Ya tienes cuenta? <a href="{{ url_for('auth.login') }}" class="text-blue-500">Inicia sesión</a></p>
 </div>

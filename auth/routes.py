@@ -32,7 +32,9 @@ def register():
             db.session.add(new_user)
             db.session.commit()
             flash('Registro exitoso, ahora puedes iniciar sesión', 'success')
+            print("hola")
             return redirect(url_for('auth.login'))
+    print("error")
     return render_template('register.html')
 
 @auth_bp.route('/logout')

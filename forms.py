@@ -3,7 +3,7 @@ from wtforms import Form
 from wtforms import StringField, SelectField, IntegerField, SubmitField, DateField
 from wtforms import EmailField
 from wtforms import validators
-from wtforms.validators import DataRequired, Length
+from wtforms.validators import DataRequired, Length, Email
 
  
 class AlumnoForm(Form):
@@ -67,3 +67,11 @@ class SeleccionarGrupoForm(Form):
     grupo = SelectField('Grupo', choices=[], validators=[DataRequired()])
     submit = SubmitField('Ver Calificaciones')
 
+class MaestroForm(Form):
+    nombre = StringField('Nombre', validators=[DataRequired(), Length(max=50)])
+    apaterno = StringField('Apellido Paterno', validators=[DataRequired(), Length(max=50)])
+    amaterno = StringField('Apellido Materno', validators=[DataRequired(), Length(max=50)])
+    email = StringField('Correo Electrónico', validators=[DataRequired(), Email(), Length(max=120)])
+    telefono = StringField('Teléfono', validators=[Length(max=20)])
+    submit = SubmitField('Registrar Maestro')
+    
